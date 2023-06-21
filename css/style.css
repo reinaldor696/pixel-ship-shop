@@ -12,3 +12,55 @@ body {
     font-size: 1.8rem;
 }
 
+header {
+    background-color: aquamarine;
+}
+
+.header-section-logo {
+    background-color: aqua;
+    width: 125px;
+}
+
+.section-logo {
+    width: 100px;
+}
+
+.header-nav { 
+    background-color: black;
+}
+
+.nav-ul {
+    background-color: rgb(52, 128, 124);
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.ul-li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;    
+}
+
+/*main*/
+
+/*side bar*/
+
+footer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div1 {
+    background-color: aqua;
+    width: 125px;
+}
+
+.footer-div2 {
+
+}
+
+.footer-div3 {
+
+}
