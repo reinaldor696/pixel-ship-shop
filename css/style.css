@@ -12,28 +12,32 @@ body {
     font-size: 1.8rem;
 }
 
-header {
-    background-color: aquamarine;
-}
-
-.header-section-logo {
-    background-color: aqua;
-    width: 125px;
+.header-div-logo {
+    display: flex;
+    justify-content: center; 
+    background-color: #333333;
+    width: 100%;
 }
 
 .section-logo {
     width: 100px;
 }
+.container-header{
+    background-color: #E1F4F3;
+}
 
-.header-nav { 
-    background-color: black;
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-ul {
-    background-color: rgb(52, 128, 124);
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
     list-style: none;
-    text-align: center;
 }
 
 .ul-li{
@@ -43,24 +47,37 @@ header {
 }
 
 /*main*/
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 200px;
+}
+
+.c1{
+    background-color: #FFFFFF;
+}
+
+.c1-div {
+    width: 100px;
+}
+
+.c2{
+    background-color: #E1F4F3;
+}
+
+.c3{
+    background-color: #FFFFFF;
+}
 
 /*side bar*/
 
 footer {
-    background-color: aquamarine;
+    background-color: #333333;
     display: flex;
     justify-content: space-between;
-}
-
-.footer-div1 {
-    background-color: aqua;
-    width: 125px;
-}
-
-.footer-div2 {
-
-}
-
-.footer-div3 {
-
 }
