@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel Ship Shop</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1200px)">
 </head>
 <body>
     <header>
@@ -50,6 +52,8 @@
     <main class="container-main">
             <div class="c1">
                 <picture class="c1-div">
+                    <source media="(min-width: 1200px)" srcset="./img/accesorio-large.jpg">
+                    <source media="(min-width: 600px)" srcset="./img/accesorio-medium.jpg">
                     <img src="./img/accesorio-small.jpg" alt="accesorios">
                 </picture>
             </div>
@@ -79,11 +83,15 @@
             <div class="c3">
                 <div>
                     <picture>
+                        <source media="(min-width: 1200px)" srcset="./img/charger-large.jpg">
+                        <source media="(min-width: 600px)" srcset="./img/charger-medium.jpg">
                         <img src="./img/charger-small.jpg" alt="charger">
                     </picture>
                 </div>
                 <div>
                     <picture>
+                        <source media="(min-width: 1200px)" srcset="./img/smartwatch-large.jpg">
+                        <source media="(min-width: 600px)" srcset="./img/smartwatch-medium.jpg">
                         <img src="./img/smartwatch-small.jpg" alt="smart watch">
                     </picture>
                 </div>

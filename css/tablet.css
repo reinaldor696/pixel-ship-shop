@@ -1,0 +1,18 @@
+.c1, .c2, .c3 {
+    width: 100%;
+    min-width: 600px;
+}
+
+.c1 {
+    height: 520px;
+}
+
+.c2 {
+    display: flex;
+    height: 280px;
+    justify-content: space-around;
+}
+
+.c3 div {
+    height: 720px;
+}

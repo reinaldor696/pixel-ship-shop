@@ -1,0 +1,40 @@
+.section-logo {
+    width: 280px;
+}
+
+.header-div-logo {
+    height: 150px;
+}
+
+.header-div-c1 {
+    width: 250px;
+}
+
+.ul-li {
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.c1, .c2, .c3 {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.c1 {
+    height: 580px;
+}
+
+.c3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c3 div {
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
